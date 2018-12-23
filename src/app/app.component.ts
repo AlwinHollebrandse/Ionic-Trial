@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -18,5 +18,9 @@ export class MyApp {
       splashScreen.hide();
     });
   }
-}
+ 
+  myOnClick() {
+    console.log("button pressed app");
+  }
 
+}
